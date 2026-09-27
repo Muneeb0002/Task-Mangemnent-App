@@ -1,10 +1,6 @@
 import React from 'react';
+import AppRoutes from './routes/AppRoutes.jsx';
 
 export default function App() {
-  return (
-    <div className="app">
-      <h1>Task Management</h1>
-      <p>Start building your components here.</p>
-    </div>
-  );
+  return <AppRoutes />;
 }
