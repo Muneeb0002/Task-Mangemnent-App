@@ -142,23 +142,6 @@ export default function Login() {
           >
             Fill Demo Credentials
           </Button>
-
-          <p style={{ marginTop: '16px', fontSize: '13px', color: '#6b778c' }}>
-            By logging in, you agree to our{' '}
-            <span
-              className="auth-terms-text"
-              onClick={() => message.info('Terms of Service clicked')}
-            >
-              Terms of Service
-            </span>{' '}
-            and{' '}
-            <span
-              className="auth-terms-text"
-              onClick={() => message.info('Privacy Policy clicked')}
-            >
-              Privacy Policy
-            </span>
-          </p>
         </form>
         <div className="auth-footer-prompt">
           <Text type="secondary">Don't have an account yet? </Text>
