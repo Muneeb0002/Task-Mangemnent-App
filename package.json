@@ -13,8 +13,12 @@
     "vite": "^8.3.0"
   },
   "dependencies": {
+    "@ant-design/icons": "^6.3.4",
+    "antd": "^6.6.5",
     "lucide-react": "^1.48.0",
     "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "react-dom": "^19.3.0",
+    "react-hook-form": "^7.89.0",
+    "react-router-dom": "^7.18.4"
   }
 }
