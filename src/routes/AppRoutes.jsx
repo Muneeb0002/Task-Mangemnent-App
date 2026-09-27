@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import SplashScreen from '../pages/SplashScreen.jsx';
 import Login from '../pages/Login.jsx';
 import SignUp from '../pages/SignUp.jsx';
+import ForgotPassword from '../pages/ForgotPassword.jsx';
+import ResetPassword from '../pages/ResetPassword.jsx';
 
 // Define application routes using createBrowserRouter
 export const router = createBrowserRouter([
@@ -17,6 +19,14 @@ export const router = createBrowserRouter([
   {
     path: '/signup',
     element: <SignUp />,
+  },
+  {
+    path: '/forgot-password',
+    element: <ForgotPassword />,
+  },
+  {
+    path: '/reset-password',
+    element: <ResetPassword />,
   },
   {
     path: '*',

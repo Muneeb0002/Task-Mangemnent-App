@@ -79,7 +79,7 @@ export default function Login() {
           <div className="auth-form-item">
             <div className="auth-label-row">
               <label className="auth-label">Password</label>
-              <Link to="/login" className="auth-forgot-link">Forgot password?</Link>
+              <Link to="/forgot-password" className="auth-forgot-link">Forgot password?</Link>
             </div>
             <Controller
               name="password"
