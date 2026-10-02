@@ -42,7 +42,7 @@ export default function Login() {
           <div className="auth-logo-badge">
             <CheckSquareOutlined />
           </div>
-          <Title level={3} className="auth-title">Log in to your account</Title>
+          <Title level={3} className="auth-title">Log in - Main Production App</Title>
           <Text type="secondary">Enter your credentials to access your Jira workspace</Text>
         </div>
 
