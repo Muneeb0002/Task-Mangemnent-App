@@ -42,7 +42,11 @@ export default function Login() {
           <div className="auth-logo-badge">
             <CheckSquareOutlined />
           </div>
+<<<<<<< HEAD
           <Title level={3} className="auth-title">Log in - Main Production App</Title>
+=======
+          <Title level={3} className="auth-title">Log in - Munib Dev Workspace</Title>
+>>>>>>> munib-dev
           <Text type="secondary">Enter your credentials to access your Jira workspace</Text>
         </div>
 
@@ -143,7 +147,6 @@ export default function Login() {
             Fill Demo Credentials
           </Button>
         </form>
-
         <div className="auth-footer-prompt">
           <Text type="secondary">Don't have an account yet? </Text>
           <Link to="/signup" className="auth-switch-link">Sign up</Link>
