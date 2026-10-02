@@ -147,6 +147,7 @@ export default function Login() {
           <Text type="secondary">Don't have an account yet? </Text>
           <Link to="/signup" className="auth-switch-link">Sign up</Link>
         </div>
+        <p>By logging in, you agree to our terms and conditions</p>
       </Card>
     </div>
   );
