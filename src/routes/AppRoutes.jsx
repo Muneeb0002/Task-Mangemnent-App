@@ -5,6 +5,7 @@ import Login from '../pages/Login.jsx';
 import SignUp from '../pages/SignUp.jsx';
 import ForgotPassword from '../pages/ForgotPassword.jsx';
 import ResetPassword from '../pages/ResetPassword.jsx';
+import TaskBoard from '../pages/TaskBoard.jsx';
 
 // Define application routes using createBrowserRouter
 export const router = createBrowserRouter([
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
   {
     path: '/reset-password',
     element: <ResetPassword />,
+  },
+  {
+    path: '/dashboard',
+    element: <TaskBoard />,
   },
   {
     path: '*',
